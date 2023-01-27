@@ -1,0 +1,9 @@
+#
+# Configure a Model 4917 in production. DEVEUI is from the -V DEVEUI=
+# switch; APPEUI is from the -V APPEUI=... switch, APPKEY
+# is from the -V APPKEY=... switch
+#
+# fram reset hard
+system configure syseui ${INIT_SYSEUI}
+system configure platformguid d9-d3-5f-fd-18-59-46-86-90-0c-dd-7f-d5-94-18-86
+sn ${INIT_SN}

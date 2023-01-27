@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\040E00F10200]
+"IgnoreHwSerNum"=hex:01
