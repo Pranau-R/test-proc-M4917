@@ -289,7 +289,7 @@ def main():
     provScript = provScriptPath + '\\mcci_catena_provision_ttn.py'
     portName = opt.portname[0]
     mfgPfx = 'mfg-'
-    mfgApp = 'mcci-mfg-M4917'
+    mfgApp = 'cdc-mfg-test-pranau'
     userPfx = 'device-'
     userApp = 'model4917-default'
     snFormat = '0002cc010000xxxx'
