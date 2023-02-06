@@ -285,11 +285,11 @@ def main():
     stFlash = stPath + '\\st-flash.exe'
     imgMfg = 'c:\\tmp\\build-model4917-mfgtest\\model4917-mfgtest.ino.hex'
     imgUser = 'c:\\tmp\\build-Model4917-LoRawan\\Model4917-LoRawan.ino.hex'
-    provScriptPath ='E:\\IoT\\Projects\\Windsor\\Model4917-test-procedure-script\\20230127\\test-proc-M4917' #'d:\\MCCI-IoT\\McGraw\\GitLab\\mcci\\test-proc-M4917\\test-proc-M4917'
+    provScriptPath ='E:\\IoT\\Projects\\Windsor\\Model4917-test-procedure-script\\20230127\\test-proc-M4917'
     provScript = provScriptPath + '\\mcci_catena_provision_ttn.py'
     portName = opt.portname[0]
     mfgPfx = 'mfg-'
-    mfgApp = 'cdc-mfg-test-pranau'
+    mfgApp = 'mcci-mfg-4917'
     userPfx = 'device-'
     userApp = 'model4917-default'
     snFormat = '0002cc010000xxxx'
